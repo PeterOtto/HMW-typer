@@ -1,0 +1,45 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="styles.css">
+	<script src="native-typed.js"></script>
+</head>
+<body>
+
+	<div id="hmwContainer">
+		<p> <h3>How might we...</h3> <br><span id="hmw"></span></p>
+	</div>
+
+	<script type="text/javascript">
+		new NTyped(document.querySelector('#hmw'), {
+
+		    strings: ['<h4 class="yellow">improve</h4> the tool from reporting to <h4 class="yellow">monitor</h4> the project <h4 class="yellow">in real time?</h4>',
+		    			'increase the <h4 class="yellow">quality of data</h4> and make input easier?',
+		    			'guarantee <h4 class="yellow">visibility up and downstream</h4> through the tool?',
+		    			'increase the <h4 class="yellow">importance of governance</h4> in projects?',
+		    			'create a tool <h4 class="yellow">attractive</h4>, supporting and <h4 class="yellow">easy to use?</h4>',
+		    			'assure that <h4 class="yellow">internal projects</h4> are <h4 class="yellow">valued</h4> as much as external ones?'],
+
+		    // show cursor
+		    showCursor: false,
+
+		    // infinite loop
+		    loop: true,
+
+		    // animation options
+		    startDelay: 500,
+		    backDelay: 2000,
+		    typeSpeed: 50,
+		    deleteSpeed: 0,
+
+		    // CSS classes
+		    classes: {
+		      cursor: 'title__cursor'
+		    }
+		    
+		});
+	</script>
+
+</body>
+</html>

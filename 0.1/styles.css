@@ -1,0 +1,15 @@
+#hmwContainer{
+	width: 768px;
+	font-size: 2em;
+	margin: auto;
+}
+
+.yellow{
+	background-color: #FCFF00;
+	display: inline;
+	font-weight: 100;
+}
+
+h3{
+	display: inline;
+}
