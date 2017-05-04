@@ -1,5 +1,4 @@
 <!doctype html>
-
 <html lang="en">
 <head>
 	<link rel="stylesheet" href="styles.css">
@@ -8,37 +7,63 @@
 	<script src="strings.js"></script>
 </head>
 <body>
+	<h2 id="visibilityTyper"></h2>
+	<h2 id="userTyper"></h2>
+	<h2 id="governanceTyper"></h2>
+	<h2 id="knowledgeTyper"></h2>
 
-	<div id="hmwContainer">
-		<p> <h3>How might we...</h3> <br><span id="hmw"></span></p>
-	</div>
 	<script type="text/javascript">
-		
-		new NTyped(document.querySelector('#hmw'), {
-
-		    strings: result,
-
+		new NTyped(document.querySelector('#visibilityTyper'), {
+		    strings: visibilityTyper,
 		    // show cursor
 		    showCursor: false,
-
 		    // infinite loop
 		    loop: true,
-
 		    // animation options
 		    startDelay: 500,
 		    backDelay: 2000,
 		    typeSpeed: 50,
 		    deleteSpeed: 0,
-
-		    // CSS classes
-		    classes: {
-		      cursor: 'title__cursor'
-		    }
-		    
 		});
-		
-		
-	</script>
 
+		new NTyped(document.querySelector('#userTyper'), {
+		    strings: userTyper,
+		    // show cursor
+		    showCursor: false,
+		    // infinite loop
+		    loop: true,
+		    // animation options
+		    startDelay: 500,
+		    backDelay: 2000,
+		    typeSpeed: 50,
+		    deleteSpeed: 0,
+		});
+
+		new NTyped(document.querySelector('#governanceTyper'), {
+		    strings: governanceTyper,
+		    // show cursor
+		    showCursor: false,
+		    // infinite loop
+		    loop: true,
+		    // animation options
+		    startDelay: 500,
+		    backDelay: 2000,
+		    typeSpeed: 50,
+		    deleteSpeed: 0,
+		});
+
+		new NTyped(document.querySelector('#knowledgeTyper'), {
+		    strings: knowledgeTyper,
+		    // show cursor
+		    showCursor: false,
+		    // infinite loop
+		    loop: true,
+		    // animation options
+		    startDelay: 500,
+		    backDelay: 2000,
+		    typeSpeed: 50,
+		    deleteSpeed: 0,
+		});
+	</script>
 </body>
 </html>
