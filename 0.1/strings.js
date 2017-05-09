@@ -1,7 +1,7 @@
 var visibilityTyper = [
 'Role based access to different stakeholders about critical information in the project, through individual dashboards',
 'Team directory with method of contact for each team member',
-'Control to Project & Delivery manager to share information at the right time, with relevant people (like Facebook post publicly or with selected people)',
+'Control to Project and Delivery manager to share information at the right time, with relevant people (like Facebook post publicly or with selected people)',
 'Make provisions to identify projects with sensitive confidentiality issues (like NDA) requirements during setup',
 'Allow team members to report risks related to assigned tasks or delivery completion through the tool',
 'Allow the project team to see the advancement in other tasks and their global impact in the project',
@@ -15,7 +15,7 @@ var userTyper = [
 'Reinforce support system during Digi-Q roll out and focus on training modules and manuals.',
 'Create a platform where people can sign-up to be testers and try out the tool.',
 'Provide a chat bot in the tool that can resolve all kind of issues.',
-'Personalised push based tips & tricks which are relevant as per the phase of the project.',
+'Personalised push based tips and tricks which are relevant as per the phase of the project.',
 'Send SMS / warnings for needed inputs or problems.',
 'Make a seamless responsive tool to use across digital channels.',
 'Digitisation of online written documents directly into Digi-Q using text recognition from a picture of the document.',
@@ -31,7 +31,7 @@ var knowledgeTyper = [
 'Pre-filled texts in templates for information capture, so it’s easy to fill quality information',
 'Trigger notifications about recent best practice added to enable immediate sharing and consumption',
 'Get support of technical external teams to validate the quality of the content captured in learnings',
-'Voice & video record feature to capture tacit knowledge of the project (best practices, challenges, lessons learnt, constraints)',
+'Voice and video record feature to capture tacit knowledge of the project (best practices, challenges, lessons learnt, constraints)',
 'Enable instant capture of learning through push notification, each time an event is triggered (task completed, milestone reached)'
 ];
 
